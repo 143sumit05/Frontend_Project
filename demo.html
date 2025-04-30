@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="demo.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Main Page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Animation -->
+      <div>
+        <div class="area">
+          <ul class="squares">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <span class="slider" id="slider1"></span>
+        <span class="slider" id="slider2"></span>
+        <span class="slider" id="slider3"></span>
+        <span class="slider" id="slider4"></span>
+
+        <div class="imgContainer">
+          <!-- slider 1 -->
+          <div class="slide_div" id="slide_1">
+            <div class="image">
+              <img src="Media\SUKHPREET SINGH SANDHU.jpg" alt="" class="img" id="img1" />
+              <div class="card-heading" id="card-heading">Sukhpreet Singh Sandhu</div>
+              <div class="card-paragraph">A FullStack Developer</div>
+              <div class="card-button">
+                <button class="login-button" id="login-button">Login</button>
+                <a href="https://github.com/SukhpreetSinghSandhu"
+                  ><button class="login-button">GitHub</button></a
+                >
+              </div>
+            </div>
+            <a href="#slider1" class="button" id="button1"></a>
+          </div>
+          <!-- slider 1 finish -->
+
+          <!-- slider 2 -->
+          <div class="slide_div" id="slide_2">
+            <img src="Media/akshatProfile.jpg" alt="" class="img" id="img2" />
+            <div class="card-heading">Sumit Dhiman</div>
+            <div class="card-paragraph">A Web Developer</div>
+            <div class="card-button">
+              <button class="login-button" id="login-button">Login</button>
+              <a href="https://github.com/SukhpreetSinghSandhu"
+                ><button class="login-button">GitHub</button></a
+              >
+            </div>
+            <a href="#slider2" class="button" id="button2"></a>
+          </div>
+          <!-- slider 2 finish -->
+
+          <!-- slider 3 -->
+          <div class="slide_div" id="slide_3">
+            <img src="Media/chadhaProfile.jpg" alt="" class="img" id="img3" />
+            <div class="card-heading">Vedant Jain</div>
+            <div class="card-paragraph">A Passionate Programmer</div>
+            <div class="card-button">
+              <button class="login-button" id="login-button">Login</button>
+              <a href="https://github.com/Chiragtaneja05"
+                ><button class="login-button">GitHub</button></a
+              >
+            </div>
+            <a href="#slider3" class="button" id="button3"></a>
+          </div>
+          <!-- slider 3 finish -->
+
+      
+        </div>
+      </div>
+
+      <!-- Modal structure -->
+      <div id="loginModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2 class="text">Login Form</h2>
+          <form id="loginForm">
+            <!-- <label for="name">Name:</label> -->
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Your Name"
+            />
+
+            <!-- <label for="userId">User ID:</label> -->
+            <input
+              type="text"
+              id="username"
+              name="userId"
+              required
+              placeholder="Your UserId"
+            />
+
+            <!-- <label for="password">Password:</label> -->
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              placeholder="Your Password"
+            />
+
+            <button type="submit" id="modal-button">Login</button>
+            <p id="errorMessage"></p>
+          </form>
+        </div>
+      </div>
+      <!-- Modal Structure end -->
+    </div>
+    <script src="modal.js"></script>
+  </body>
+</html>
