@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <div class="navbar">
+      <div class="innerNavbar">
+        <a href="/" class="logo">
+          <div class="logo1"><</div>
+          Vedant&nbsp;
+          <div style="color: rgb(133, 76, 230);">/</div>
+          &nbsp;Jain
+          <div class="logo1">></div>
+        </a>
+        <div class="pages">
+          <a href="#about" class="anchor">About</a>
+          <a href="#skills" class="anchor">Skill</a>
+          <a href="#experience" class="anchor">Experience</a>
+          <a href="#project" class="anchor">Projects</a>
+          <a href="#education" class="anchor">Education</a>
+        </div>
+        
+        <div class="github">
+          <div>
+            <button id="logoutButton" class="logout-button">Logout</button>
+            <script>
+              document.getElementById("logoutButton").addEventListener("click", () => {
+          // Clear local storage
+          localStorage.removeItem("loggedInUser");
+  
+          // Redirect to login page
+          window.location.href = "demo.html"; // Replace with the actual login page
+        });
+            </script>
+          </div>
+          <a href="https://github.com/Vedant9332" class="github-button">Github Profile</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main">
+      <!-- About Section -->
+      <div class="about" id="about">
+        <div class="about-inner">
+          <div class="about-content">
+            <div class="about-name">
+              Hi, I am <br />
+              Vedant Jain
+            </div>
+            <div class="about-skill">I am a <span class="auto-type"></span></div>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+  var typed = new Typed(".auto-type", {
+    strings: ["Programmer", "Full Stack Developer", "App Developer"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+  });
+</script>
+
+
+
+            <div class="myself">
+              I am a motivated and versatile individual, always eager to take on
+              new challenges. With a passion for learning I am dedicated to
+              delivering high-quality results. With a positive attitude and a
+              growth mindset, I am ready to make a meaningful contribution and
+              achieve great things.
+            </div>
+            <a href="" class="resume">Check Resume</a>
+          </div>
+          <div class="Image">
+            <img
+              src=""
+              alt="Vedant Jain"
+              class="Project-profile"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Skill Section -->
+
+      <div class="skills" id="skills">
+        <div class="skills-inner">
+          <div class="skills-heading">Skills</div>
+          <div class="skills-paragraph">
+            Here are some of my skills on which I have been working on for the
+            past 3 years.
+          </div>
+          <div class="skills-language">
+            <div style="display: flex; gap: 50px;">
+              <div class="skills-frontend" id="skillSet1" style="transform: translateX(-200px);">
+                <div class="frontend-heading">Frontend</div>
+                <div class="frontend-language">
+                  <!-- React -->
+                  <div class="react">
+                    <img
+                      src="Media/React.png"
+                      alt="React"
+                      style="width: 24px; height: 24px"
+                    />
+                    React Js
+                  </div>
+                  <!-- Redux -->
+                  <div class="react">
+                    <img
+                      src="Media/redux.svg"
+                      alt="Redux"
+                      style="width: 24px; height: 24px"
+                    />
+                    Redux
+                  </div>
+                  <!-- Next Js -->
+                  <div class="react">
+                    <img
+                      src="Media/nextjs.svg"
+                      alt="Next Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    Next Js
+                  </div>
+                  <!-- Angular Js -->
+                  <div class="react">
+                    <img
+                      src="Media/Angular.png"
+                      alt="Angular Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    Angular Js
+                  </div>
+                  <!-- HTML -->
+                  <div class="react">
+                    <img
+                      src="Media/html.png"
+                      alt="Html"
+                      style="width: 24px; height: 24px"
+                    />
+                    HTML
+                  </div>
+                  <!-- CSS -->
+                  <div class="react">
+                    <img
+                      src="Media/css.png"
+                      alt="CSS"
+                      style="width: 24px; height: 24px"
+                    />
+                    CSS
+                  </div>
+                  <!-- JavaScript -->
+                  <div class="react">
+                    <img
+                      src="Media/js.png"
+                      alt="JavaScript"
+                      style="width: 24px; height: 24px"
+                    />
+                    JavaScript
+                  </div>
+                  <!-- Bootstrap -->
+                  <div class="react">
+                    <img
+                      src="Media/BootStrap.png"
+                      alt="Bootstrap"
+                      style="width: 24px; height: 24px"
+                    />
+                    Bootstrap
+                  </div>
+                  <!-- Material-UI -->
+                  <div class="react">
+                    <img
+                      src="Media/material-ui.svg"
+                      alt="material-ui"
+                      style="width: 24px; height: 24px"
+                    />
+                    Material UI
+                  </div>
+                  <!-- Flutter -->
+                  <div class="react">
+                    <img
+                      src="Media/Flutter.png"
+                      alt="flutter"
+                      style="width: 24px; height: 24px"
+                    />
+                    Flutter
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-frontend" id="skillSet2" style="transform: translateX(150px);">
+                <div class="frontend-heading">Backend</div>
+                <div class="frontend-language">
+                  <!-- Node Js -->
+                  <div class="react">
+                    <img
+                      src="Media/nodejs.png"
+                      alt="React"
+                      style="width: 24px; height: 24px"
+                    />
+                    Node JS
+                  </div>
+                  <!-- Express -->
+                  <div class="react">
+                    <img
+                      src="Media/express.png"
+                      alt="Redux"
+                      style="width: 24px; height: 24px"
+                    />
+                    Express Js
+                  </div>
+                  <!-- Graph QL -->
+                  <div class="react">
+                    <img
+                      src="Media/GraphQL.png"
+                      alt="Next Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    Graph Ql
+                  </div>
+                  <!-- Python -->
+                  <div class="react">
+                    <img
+                      src="Media/python.png"
+                      alt="Angular Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    Python
+                  </div>
+                  <!-- Flask -->
+                  <div class="react">
+                    <img
+                      src="Media/flask.png"
+                      alt="Html"
+                      style="width: 24px; height: 24px"
+                    />
+                    Flask
+                  </div>
+                  <!-- Django -->
+                  <div class="react">
+                    <img
+                      src="Media/Django.png"
+                      alt="CSS"
+                      style="width: 24px; height: 24px"
+                    />
+                    Django
+                  </div>
+                  <!-- My sql -->
+                  <div class="react">
+                    <img
+                      src="Media/Mysql.png"
+                      alt="JavaScript"
+                      style="width: 24px; height: 24px"
+                    />
+                    My SQL
+                  </div>
+                  <!-- PostgresQl -->
+                  <div class="react">
+                    <img
+                      src="Media/post.png"
+                      alt="Bootstrap"
+                      style="width: 24px; height: 24px"
+                    />
+                    PostgresQl
+                  </div>
+                  <!-- Mongo DB -->
+                  <div class="react">
+                    <img
+                      src="Media/mongoDB.png"
+                      alt="material-ui"
+                      style="width: 24px; height: 24px"
+                    />
+                    mongoDB
+                  </div>
+                  <!-- FireBase -->
+                  <div class="react">
+                    <img
+                      src="Media/Firebase.png"
+                      alt="flutter"
+                      style="width: 24px; height: 24px"
+                    />
+                    FireBase
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 50px">
+              <div class="skills-frontend" id="skillSet3" style="transform: translateX(-200px);">
+                <div class="frontend-heading">DevOps</div>
+                <div class="frontend-language">
+                  <!-- AWS -->
+                  <div class="react">
+                    <img
+                      src="Media/aws.png"
+                      alt="React"
+                      style="width: 24px; height: 24px"
+                    />
+                    AWS
+                  </div>
+                  <!-- Google Cloud -->
+                  <div class="react">
+                    <img
+                      src="Media/google-cloud.svg"
+                      alt="Redux"
+                      style="width: 24px; height: 24px"
+                    />
+                    Google Cloud
+                  </div>
+                  <!-- Docker -->
+                  <div class="react">
+                    <img
+                      src="Media/docker.png"
+                      alt="Next Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    Docker
+                  </div>
+                  <!-- Jenkins -->
+                  <div class="react">
+                    <img
+                      src="Media/jenkins.png"
+                      alt="Angular Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    Jenkins
+                  </div>
+                  <!-- Nginx -->
+                  <div class="react">
+                    <img
+                      src="Media/nginx.png"
+                      alt="Html"
+                      style="width: 24px; height: 24px"
+                    />
+                    Nginx
+                  </div>
+                  <!-- Grafana -->
+                  <div class="react">
+                    <img
+                      src="Media/Grafana.png"
+                      alt="CSS"
+                      style="width: 24px; height: 24px"
+                    />
+                    Grafana
+                  </div>
+                  <!-- Kuberneters -->
+                  <div class="react">
+                    <img
+                      src="Media/Kuberneters.png"
+                      alt="JavaScript"
+                      style="width: 24px; height: 24px"
+                    />
+                    Kuberneters
+                  </div>
+                  <!-- prometheus -->
+                  <div class="react">
+                    <img
+                      src="Media/prometheus.svg"
+                      alt="Bootstrap"
+                      style="width: 24px; height: 24px"
+                    />
+                    Prometheus
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-frontend" id="skillSet4" style="transform: translateX(150px);">
+                <div class="frontend-heading">Android</div>
+                <div class="frontend-language">
+                  <!-- Java -->
+                  <div class="react">
+                    <img
+                      src="Media/java.png"
+                      alt="React"
+                      style="width: 24px; height: 24px"
+                    />
+                    Java
+                  </div>
+                  <!-- Kotlin -->
+                  <div class="react">
+                    <img
+                      src="Media/Kotlin.svg"
+                      alt="Redux"
+                      style="width: 24px; height: 24px"
+                    />
+                    Kotlin
+                  </div>
+                  <!-- Jetpack -->
+                  <div class="react" style="padding-right: 20px">
+                    <img
+                      src="Media/Jetpack.png"
+                      alt="Next Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    Jetpack Compose
+                  </div>
+                  <!-- XML -->
+                  <div class="react">
+                    <img
+                      src="Media/XML.png"
+                      alt="Angular Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    XML
+                  </div>
+                  <!-- Android Studio -->
+                  <div class="react">
+                    <img
+                      src="Media/AndroidStudio.png"
+                      alt="Html"
+                      style="width: 24px; height: 24px"
+                    />
+                    Android Studio
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 50px">
+              <div class="skills-frontend" id="skillSet5" style="transform: translateX(-200px);">
+                <div class="frontend-heading">Machine learning</div>
+                <div class="frontend-language">
+                  <!-- Python -->
+                  <div class="react">
+                    <img
+                      src="Media/python.png"
+                      alt="React"
+                      style="width: 24px; height: 24px"
+                    />
+                    Python
+                  </div>
+                  <!-- Tenser Flow -->
+                  <div class="react">
+                    <img
+                      src="Media/TensorFlow.svg"
+                      alt="Redux"
+                      style="width: 24px; height: 24px"
+                    />
+                    Tensor Flow
+                  </div>
+                  <!-- Keras -->
+                  <div class="react">
+                    <img
+                      src="Media/Keras.png"
+                      alt="Next Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    Keras
+                  </div>
+                  <!-- Jupyter -->
+                  <div class="react">
+                    <img
+                      src="Media/jupyter.svg"
+                      alt="Angular Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    Jupyter
+                  </div>
+                  <!-- Google Colab -->
+                  <div class="react">
+                    <img
+                      src="Media/google-cloud.svg"
+                      alt="Html"
+                      style="width: 24px; height: 24px"
+                    />
+                    Google Colab
+                  </div>
+                  <!-- Sk Learn Kit -->
+                  <div class="react">
+                    <img
+                      src="Media/SK.png"
+                      alt="CSS"
+                      style="width: 24px; height: 24px"
+                    />
+                    SK Learn Kit
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills-frontend" id="skillSet6" style="transform: translateX(150px);">
+                <div class="frontend-heading">Others</div>
+                <div class="frontend-language">
+                  <!-- Git -->
+                  <div class="react">
+                    <img
+                      src="Media/Git.svg"
+                      alt="React"
+                      style="width: 24px; height: 24px"
+                    />
+                    Git
+                  </div>
+                  <!-- GitHub -->
+                  <div class="react">
+                    <img
+                      src="Media/github.png"
+                      alt="Redux"
+                      style="width: 24px; height: 24px"
+                    />
+                    GitHub
+                  </div>
+                  <!-- Netlify -->
+                  <div class="react">
+                    <img
+                      src="Media/netlify.png"
+                      alt="Next Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    Netlify
+                  </div>
+                  <!-- VS -->
+                  <div class="react">
+                    <img
+                      src="Media/vs.svg"
+                      alt="Angular Js"
+                      style="width: 24px; height: 24px"
+                    />
+                    VS Code
+                  </div>
+                  <!-- Postman -->
+                  <div class="react">
+                    <img
+                      src="Media/Postman.png"
+                      alt="Html"
+                      style="width: 24px; height: 24px"
+                    />
+                    Postman
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
